@@ -1,7 +1,7 @@
 function Footer() {
     return (
         <footer>
-            <p>&copy; 2026 Staybnb. All rights reserved.</p>
+            <p>&copy; 2026 HomeBnB. All rights reserved.</p>
         </footer>
     );
 }
