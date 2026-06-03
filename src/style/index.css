@@ -17,3 +17,36 @@ nav ul {
   gap: 20px;
   list-style: none;
 }
+
+.button-group {
+  margin-top: 25px;
+  display: flex;
+  gap: 15px;
+}
+
+.primary {
+  background-color: #ff385c;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.primary:hover {
+  opacity: 0.9;
+}
+
+.secondary {
+  background: transparent;
+  color: #ff385c;
+  border: 2px solid #ff385c;
+  padding: 12px 24px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.secondary:hover {
+  background-color: #ff385c;
+  color: white;
+}
