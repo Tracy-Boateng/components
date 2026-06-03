@@ -18,7 +18,7 @@ function App() {
     ];
 
     return (
-        <>
+        <div className="app">
             <Header />
 
             <Banner
@@ -29,7 +29,7 @@ function App() {
             <Gallery images={galleryImages} />
 
             <Footer />
-        </>
+        </div>
     );
 }
 
