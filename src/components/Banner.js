@@ -2,7 +2,7 @@ import Button from "./Button";
 
 function Banner(props) {
     return (
-      <section>
+      <section className="banner">
        <h2>{props.title}</h2>
 
        <p>{props.text}</p>
