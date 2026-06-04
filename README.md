@@ -42,5 +42,5 @@ Tracy
 
 ## Git Repo
 
-https://github.com/Tracy-Boateng/components.git
+https://tracy-boateng.github.io/components/
 

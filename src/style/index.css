@@ -115,8 +115,8 @@ nav li:hover {
 }
 
 .gallery img {
-    width: 350px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
     object-fit: cover;
     border-radius: 12px;
     transition: transform 0.3s ease;
