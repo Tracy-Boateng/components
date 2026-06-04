@@ -40,3 +40,7 @@ Displays copyright information.
 
 Tracy
 
+## Git Repo
+
+https://github.com/Tracy-Boateng/components.git
+
