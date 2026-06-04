@@ -1,14 +1,15 @@
-function Header () {
+function Header (props) {
     return (
         <header>
             <h1>HomeBnB</h1>
 
             <nav>
                 <ul>
-                    <li>Home</li>
-                    <li>Rooms</li>
-                    <li>Experiences</li>
-                    <li>Contact</li>
+                    {props.navLinks.map((link, index) => (
+                        <li key={index}>
+                            {link}
+                        </li>
+                    ))}
                 </ul>
             </nav>
         </header>

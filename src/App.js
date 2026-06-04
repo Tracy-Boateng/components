@@ -10,6 +10,13 @@ import bnb4 from "./assets/bnb4.jpg";
 
 function App() {
 
+    const navLinks = [
+        "Home",
+        "Rooms",
+        "Experiences",
+        "Contact"
+    ];
+
     const galleryImages = [
         bnb1,
         bnb2,
@@ -19,7 +26,7 @@ function App() {
 
     return (
         <div className="app">
-            <Header />
+            <Header navLinks={navLinks} />
 
             <Banner
                 title="Find your next unforgettable stay"

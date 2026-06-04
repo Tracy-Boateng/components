@@ -15,7 +15,7 @@ A React application inspired by Airbnb that showcases vacation rental properties
 
 - Components
 - Props
-- JSX
+- JS
 - map() method
 - CSS Styling
 
